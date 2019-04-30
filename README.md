@@ -21,3 +21,13 @@ docker.io/openjdk   8                   b8d3f94869bb        4 weeks ago         
 [vagrant@server00 javaapp]$ sudo docker run -it --name maVersion javaapp:v1
 
 [vagrant@server00 javaapp]$ sudo docker run -it --name maVersion3 javaapp:v2
+
+*********************** Connection to Docker hub *****************************
+
+Se connecter à docker hub -----> new répo   ----> .... ----->   amlas/javaapp
+
+[vagrant@server00 javaapp]$ sudo docker login
+
+[vagrant@server00 javaapp]$ sudo docker push amlas/javaapp
+
+
