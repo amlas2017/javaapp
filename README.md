@@ -10,6 +10,7 @@ Ce projet permet de créer un contenair docker à partir d'un dockerfile , copie
 [vagrant@server00 javaapp]$ sudo docker build -t javaapp:v1 .
 
 //  docker build -t ImageName:tagName /location/of/Dockerfile
+ si pwd = /location/of/Dockerfile , on met "." , cela signifie que Dockerfile est dans le dossier courant (pwd)
 
 [vagrant@server00 javaapp]$ sudo docker images
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
