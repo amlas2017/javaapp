@@ -9,6 +9,8 @@ Ce projet permet de créer un contenair docker à partir d'un dockerfile , copie
 
 [vagrant@server00 javaapp]$ sudo docker build -t javaapp:v1 .
 
+//  docker build -t ImageName:tagName /location/of/Dockerfile
+
 [vagrant@server00 javaapp]$ sudo docker images
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 javaapp             v1                  51b1de32ffaa        6 minutes ago       625 MB
