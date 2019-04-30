@@ -1,0 +1,1 @@
+Ce projet permet de créer un contenair docker à partir d'un dockerfile , copier un jar dedans avant de l'executer.
