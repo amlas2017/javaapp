@@ -17,3 +17,4 @@ docker.io/openjdk   8                   b8d3f94869bb        4 weeks ago         
 
 [vagrant@server00 javaapp]$ sudo docker run -it --name maVersion javaapp:v1
 
+[vagrant@server00 javaapp]$ sudo docker run -it --name maVersion3 javaapp:v2
